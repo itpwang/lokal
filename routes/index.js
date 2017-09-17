@@ -6,7 +6,7 @@ var fs = require('fs');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('event_setup_form1', {
+  res.render('main_events_page', {
    });
 });
 	 
