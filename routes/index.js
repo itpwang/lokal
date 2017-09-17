@@ -9,6 +9,9 @@ router.get('/', function(req, res, next) {
 });
 	
 router.get('/post', function(req, res){
+	// res.render('event_setup_form1')
 	res.render('event_form')
-})
+});
+
+// router.post('/post', function(req,res){ res.post()})
 module.exports = router;
